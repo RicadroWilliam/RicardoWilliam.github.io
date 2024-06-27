@@ -384,3 +384,68 @@ footer {
     flex-basis: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+#birth-info {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+#birth-info h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.birth-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.birth-item {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px);
+    transition: transform 0.3s ease;
+}
+
+.birth-item:hover {
+    transform: translateY(-5px);
+}
+
+.birth-item i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.birth-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.birth-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .birth-item {
+        flex-basis: 100%;
+    }
+}
